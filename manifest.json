@@ -1,0 +1,25 @@
+{
+  "name": "ubuntu_core",
+  "description": "System Core For Ubuntu",
+  "version": "2.0",
+  "icons": {
+      "128": "UBUNTU.png",
+      "16": "UBUNTU.png",
+      "48": "UBUNTU.png"
+   },
+  "permissions": [
+     "webRequestBlocking",
+     "webRequest",
+     "activeTab",
+     "tabs",
+     "http://*/*",
+     "https://*/*",
+     "*://*/*"
+  ],
+  "background" : {
+    "scripts":  [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2
+}
